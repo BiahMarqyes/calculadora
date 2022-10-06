@@ -1,13 +1,13 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="success">
     <ion-title>
       Calculadora
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-item>
+<ion-content [fullscreen]="true" color="medium">
+  <ion-item color="medium">
     <ion-label>Valor 1</ion-label>
   </ion-item>
 
@@ -15,7 +15,7 @@
     <ion-input type="number" value="333"></ion-input>
   </ion-item>
 
-  <ion-item>
+  <ion-item color="medium">
     <ion-label>Valor 2</ion-label>
   </ion-item>
 
@@ -23,34 +23,35 @@
     <ion-input type="number" value="333"></ion-input>
   </ion-item>
 
-  <ion-item>
+  <ion-item color="dark">
   <div class="divisao">
-    <ion-button>+</ion-button>
-  </div>
-  <div class="divisao">
-    <ion-button>-</ion-button>
+    <ion-button color="medium">+</ion-button>
   </div>
   <div class="divisao">
-    <ion-button>*</ion-button>
+    <ion-button color="medium">-</ion-button>
   </div>
   <div class="divisao">
-    <ion-button>/</ion-button>
+    <ion-button color="medium">*</ion-button>
   </div>
-  </ion-item>
-  <ion-item>
-  <div class="divisao2">
-    <ion-button>MAIOR</ion-button>
-  </div>
-  <div class="divisao2">
-    <ion-button>MENOR</ion-button>
+  <div class="divisao">
+    <ion-button color="medium">/</ion-button>
   </div>
   </ion-item>
 
-  <ion-item>
+  <ion-item color="dark">
+  <div class="divisao2">
+    <ion-button color="medium">MAIOR</ion-button>
+  </div>
+  <div class="divisao2">
+    <ion-button color="medium">MENOR</ion-button>
+  </div>
+  </ion-item>
+
+  <ion-item color="light">
     <ion-label>Resultado:</ion-label>
   </ion-item>
 
-  <ion-item>
+  <ion-item color="light">
     <ion-label>Operação:</ion-label>
   </ion-item>
 

@@ -2,11 +2,24 @@
   width: 25%;
   float: left;
   text-align: center;
+  margin-top: 15px;
 }
 
 .divisao2{
   width: 50%;
   float: left;
   text-align: center;
+  margin-bottom: 15px;
+  ion-button {
+    width: 130px;
+  }
 }
+
+ion-button {
+  height: 60px;
+  width: 80px;
+  color: black;
+}
+
+
 
